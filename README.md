@@ -19,7 +19,7 @@ Docker packaged semantic segmentation CNN.
 
 Semantic map overlaid on original image. Mask are for Person, Car, Bike, Bus, Train, Boat, Motorbike, Dog, Cat
 
-![sample_output](images/person_and_car_semantic_segmentationsmall.png)
+![sample_output](sample/person_and_car_semantic_segmentationsmall.png)
 
 Below is the GRU circuit's math, i.e. the above circuit in the form of math equations whose parameters we will train to estimate
 
