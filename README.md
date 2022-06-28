@@ -1,6 +1,7 @@
 # Semantic Segmentation Dockered MicroService
 
-Gated Recurrent Network (GRU) to GRUow your savings
+Semantic Segmentation as a docker microservice
+
 
 ## Overview
   * [Intro](#intro)
