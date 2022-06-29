@@ -38,13 +38,13 @@ Semantic map overlaid on original image. Mask are for Person, Car, Bike, Bus, Tr
   ```
   cd ./dockered_semantic_segmentation
   ```
-  * build docker image
-  ```
-  docker build -f Dockerfile -t seg_deep .
-  ```
   * copy images for annotation to ./images folder
   ```
   cp /image/source/path ./images
+  ```
+  * build docker image
+  ```
+  docker build -f Dockerfile -t seg_deep .
   ```
   * launch and run container
   ```
