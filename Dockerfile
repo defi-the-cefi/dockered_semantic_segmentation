@@ -38,3 +38,5 @@ ENV PATH="./segv/bin:$PATH"
 RUN pip3 install torch torchvision torchaudio
 RUN mkdir ./.torch_cache
 ENV TORCH_HOME="./.torch_cache"
+
+ENTRYPOINT python3 seg_model.py
