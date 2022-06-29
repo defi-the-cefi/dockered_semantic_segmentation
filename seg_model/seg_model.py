@@ -37,6 +37,7 @@ def batched_inferences():
             print('appending annotations for: ', item)
             print('index: ', index)
             annotations[item] = model_output.select(0,index)
+            torch.save('./output_images', item+'.pth')
     # print(annotations)
     return(annotations)
 
