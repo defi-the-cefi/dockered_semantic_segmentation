@@ -34,6 +34,7 @@ Semantic map overlaid on original image. Mask are for Person, Car, Bike, Bus, Tr
 ### Usage
 
   * git clone this repo
+  * cd into repo directory
   ```
   cd ./dockered_semantic_segmentation
   ```
