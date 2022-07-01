@@ -48,7 +48,7 @@ Semantic map overlaid on original image. Mask are for Person, Car, Bike, Bus, Tr
   ```
   * launch and run container
   ```
-  docker run --gpus all -u $(id -u):$(id -g) --name seg -it seg_deep bash
+  docker run --gpus all --name seg -it seg_deep bash
   ```
   * annotations and reshaped images to match annotations tensor shape can be found in the directory ./output_images
 
